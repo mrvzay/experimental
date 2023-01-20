@@ -47,3 +47,8 @@ def plot_train_test_data(train_data: int = X_train,
 
 # Visualize train and test data
 plot_train_test_data()
+
+
+import torch
+from torch import nn 
+print(torch.__version__)
